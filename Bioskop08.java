@@ -22,14 +22,21 @@ public class Bioskop08 {
         // for(int i =0; i<penonton.length; i++){
         //     System.out.println("Panjang baris ke-"+(i+1)+" : "+penonton[i].length);
         // }
+
+        // System.out.println(penonton[0].length);
+        // System.out.println(penonton[1].length);
+        // System.out.println(penonton[2].length);
+        // System.out.println(penonton[3].length);
+
         int no = 1;
         for (String[] i : penonton) {
             System.out.println("Panjang baris ke-"+(no)+" : "+i.length);
             no++;
         }
-        // System.out.println(penonton[0].length);
-        // System.out.println(penonton[1].length);
-        // System.out.println(penonton[2].length);
-        // System.out.println(penonton[3].length);
+        
+        System.out.println("Penonton pada baris ke-3: ");
+        for(int i=0; i<penonton[2].length; i++){
+            System.out.println(penonton[2][i]);
+        }
     }
 }
